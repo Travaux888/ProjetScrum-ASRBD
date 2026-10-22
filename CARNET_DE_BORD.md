@@ -57,3 +57,7 @@ Le contenu vérifiable fusionné par la PR #1 comprend le socle Express, GET /he
 - **T-03 et T-04 :** état non modifié pendant ce relevé ; l’interface Trello a signalé une perte de connexion, donc aucune modification n’y est tenue pour enregistrée.
 ### Limites du relevé
 Ce carnet est un état des preuves consultables à la date indiquée, pas un compte rendu complet des ateliers. Pour finaliser les sections manquantes, l’équipe doit reporter les estimations, décisions, validations PO, refus, burndowns et rétrospectives issus de ses fiches ou de son tableau Trello. Aucun historique ou chiffre de sprint n’a été inventé.
+### Rectification du relevé Trello — 22 octobre 2026, 11:00 UTC
+La mention antérieure indiquant que T-03 et T-04 n’avaient pas été modifiées est obsolète : après le rétablissement de la connexion, les mises à jour suivantes ont été enregistrées et vérifiées après rechargement.
+- **T-03 :** checklist 3/3 cochée après vérification de `src/data/seed.js` sur `main` : quatre voisins, huit outils et au moins trois catégories autorisées. Un commentaire indique qu’aucune PR dédiée n’est liée.
+- **T-04 :** checklist 1/1 cochée ; un commentaire consigne le workflow `npm run check`, les runs Actions #2, #3 et #5 réussis et les 8 tests passés sur la PR #5. La PR #5 reste en attente de revue par un pair et de validation PO.
