@@ -68,3 +68,7 @@ npm run check
 ## Sprint 0
 
 Le Sprint 0 met en place le dépôt, le socle Express, les données de démonstration et les contrôles automatisés. Les fonctionnalités de catalogue et d’emprunt seront développées dans les sprints suivants.
+## Stories produit terminées
+Aucune story produit n’est fusionnée et validée PO sur main à ce jour. Une story sera ajoutée ici avec le lien de sa PR après revue, fusion et validation PO.
+## Vidéo de démonstration
+Lien à ajouter après l’enregistrement et la publication de la vidéo (durée attendue : 3 à 5 minutes). Aucun lien réel n’est disponible au moment de cette mise à jour.
