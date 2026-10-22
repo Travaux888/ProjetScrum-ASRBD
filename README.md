@@ -16,13 +16,16 @@ L’application permet de rechercher des outils disponibles, de demander leur em
 - Benjamin
 - Bastien
 
-## Rotation des rôles
+## Rotation effective des rôles
 
-| Sprint | Product Owner | Développeurs |
-| --- | --- | --- |
-| Sprint 1 | Valentin | Benjamin, Bastien |
-| Sprint 2 | Benjamin | Valentin, Bastien |
-| Sprint 3 | Bastien | Valentin, Benjamin |
+| Étape | Product Owner | Scrum Master | Développeurs |
+| --- | --- | --- | --- |
+| Lancement | Valentin | — | Benjamin, Bastien |
+| Sprint 1 | Valentin | Benjamin | Bastien |
+| Sprint 2 | Benjamin | Bastien | Valentin |
+| Sprint 3 | Bastien | Valentin | Benjamin |
+
+Le PO change à chaque sprint et ne code pas pendant son sprint. Le Scrum Master est une autre personne et code avec les Developers.
 
 ## Prérequis
 
@@ -60,8 +63,12 @@ npm run check
 - `src/data/seed.js` contient quatre voisins, huit outils et six catégories.
 - `test/health.test.js` vérifie la route `/health`.
 - `.github/workflows/check.yml` lance le lint et les tests sur chaque pull request vers `main`.
-- `docs/GITHUB_SETUP.md` décrit la configuration GitHub du Sprint 0.
+- `docs/GITHUB_SETUP.md` décrit les vérifications et réglages GitHub du Sprint 0.
 
 ## Sprint 0
 
 Le Sprint 0 met en place le dépôt, le socle Express, les données de démonstration et les contrôles automatisés. Les fonctionnalités de catalogue et d’emprunt seront développées dans les sprints suivants.
+## Stories produit terminées
+Aucune story produit n’est fusionnée et validée PO sur main à ce jour. Une story sera ajoutée ici avec le lien de sa PR après revue, fusion et validation PO.
+## Vidéo de démonstration
+Lien à ajouter après l’enregistrement et la publication de la vidéo (durée attendue : 3 à 5 minutes). Aucun lien réel n’est disponible au moment de cette mise à jour.
