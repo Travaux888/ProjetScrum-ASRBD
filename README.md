@@ -65,3 +65,6 @@ npm run check
 ## Sprint 0
 
 Le Sprint 0 met en place le dépôt, le socle Express, les données de démonstration et les contrôles automatisés. Les fonctionnalités de catalogue et d’emprunt seront développées dans les sprints suivants.
+## US-02 — Proposer un outil
+`POST /api/tools` accepte un objet JSON avec `name` (obligatoire, 2 à 60 caractères), `category` (une catégorie présente dans les données de démonstration) et `description` (facultative, 300 caractères maximum). La réponse est HTTP 201 avec l’outil créé, son propriétaire et le statut `available`. Les erreurs de validation renvoient HTTP 400 et le champ concerné.
+Pour la démonstration, `user-1` est l’utilisateur courant par défaut. L’en-tête `x-user-id` permet de choisir un autre membre présent dans les données seed (`user-1` à `user-4`). Ce mécanisme sert à identifier un membre dans le prototype et ne constitue pas une authentification.
